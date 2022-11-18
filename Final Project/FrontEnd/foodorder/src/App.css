@@ -1,0 +1,49 @@
+.card-img-top {
+  height: 200px;
+}
+.aa{
+  background-color: #000 !important;
+}
+.hw{  width: 100%;
+  height: 420px;
+  background-image: url('https://images.hdqwalls.com/wallpapers/bthumb/pizza-baked-chesse-spicy-7t.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  animation: myanimation 20s infinite;
+  animation-fill-mode:backwards;
+  animation-direction:alternate-reverse;
+  /* z-index: 1 !important; */
+}
+@keyframes myanimation {
+  0% {background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwCXRZWmtgETLE30zLS4Wuj6L-KT-0uEpq1Q&usqp=CAU');}
+  11% {background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwGXBVIf0-NKIzmnhtc8a21r0mg4GLpT2DRA&usqp=CAU');}
+  22% {background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW_Ecwr1Fvt8F0XMQaKzxCeAtVEHFI06k8AA&usqp=CAU');}
+  33% {background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5R5_hB9XW9PMR0eRcuAm_DrXMlbVraiUOTw&usqp=CAU');}
+  44% {background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT1QZ8i23_kJbAda78sHQd8Bcv-agKMgNW5A&usqp=CAU');}
+  55% {background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwHxkeZPgourLVXCXgWBvVjNBGT59J3ILu-w&usqp=CAU');}
+  66% {background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrWRkwKNhqjNyFZYme-_-QGjLdWlZhwuuSmw&usqp=CAU');}
+  77%{background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkn5rHcqT1Hx8a5cnLHg_brbeqTJ81FLAcnA&usqp=CAU');}
+  88% {background-image:url('https://images.hdqwalls.com/wallpapers/bthumb/pizza-baked-chesse-spicy-7t.jpg');}
+  99% {background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5R5_hB9XW9PMR0eRcuAm_DrXMlbVraiUOTw&usqp=CAU');}
+}
+.card {
+  /* margin:auto; */
+  width: 15rem;
+  margin-top: 4%;
+  float: left;
+}
+
+.container1 {
+  align-items: center;
+  font-family: sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  /* border: 1px solid rgb(233, 10, 10); */
+  margin: 0;
+  padding: 0px 0px;
+}

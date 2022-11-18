@@ -1,0 +1,204 @@
+.imgs {
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 300px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.image {
+    text-align: center !important;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    min-height: 300px;
+    transition: 0.4s ease-in-out;
+}
+
+.image:hover {
+    min-height: 310px !important;
+    width: 105% !important;
+}
+
+.box {
+    width: 22%;
+    height: 40%;
+    box-sizing: border-box;
+    border: 0px solid black;
+    background-color: rgb(206, 208, 209);
+    margin: 1%;
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.box:hover {
+    box-shadow: 0 0 25px black;
+}
+
+.para {
+    width: 100%;
+    height: 155px;
+    text-align: center;
+    padding: 5px;
+    overflow: hidden;
+    font-weight: bolder;
+    /* margin-bottom: 0; */
+}
+.description{
+    min-height: 65px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.title{
+    min-height: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.buttons {
+    border: none;
+    border-radius: 15px !important;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.button1 {
+    font-weight: bolder;
+    margin-top: 0;
+    min-width: 80%;
+    padding: 10px;
+    min-height: 30px;
+    background-color: grey;
+    /* border: 1px solid rgb(112, 112, 112) !important; */
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.button1:hover {
+    background-color: orangered;
+}
+
+.buy:hover {
+    background-color: rgb(20, 167, 20);
+}
+
+.card-title {
+    font-weight: bolder !important;
+}
+
+@media screen and (max-width:449px) {
+    .box {
+        width: 48%;
+        /* height: 500px; */
+        box-sizing: border-box;
+        border: 0px solid black;
+        background-color: aliceblue;
+        margin: 1%;
+        border-radius: 15px;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+    }
+
+    .image {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        width: 100%;
+        min-height: 110px !important;
+    }
+
+    .imgs {
+        overflow: hidden !important;
+        max-width: 100%;
+        max-height: 200px !important;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .button1 {
+        width: 90% !important;
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+        border-radius: 10px !important;
+    }
+    .para {
+        width: 100%;
+        height: 290px;
+        text-align: center;
+        padding: 1px;
+        overflow: hidden;
+        font-size: xx-small !important;
+        margin-bottom: 0;
+    }
+    .description{
+        min-height: 140px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .title{
+        min-height: 50px;
+        font-size: xx-small !important;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+}
+
+@media screen and (min-width:450px) and (max-width:830px) {
+    .box {
+        width: 31%;
+        /* height: 400px !important; */
+        box-sizing: border-box;
+        border: 0px solid black;
+        background-color: aliceblue;
+        margin: 1%;
+        border-radius: 15px;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+    }
+
+    .image {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        width: 100%;
+        min-height: 300px !important;
+    }
+
+    .imgs {
+        overflow: hidden;
+        max-width: 100%;
+        max-height: 200px !important;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .button1 {
+        width: 90% !important;
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+        border-radius: 10px !important;
+    }
+    .para {
+        width: 100%;
+        height: 230px;
+        text-align: center;
+        padding: 2px;
+        overflow: hidden;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+    .description{
+        min-height: 80px;
+        font-weight: lighter !important;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .title{
+        min-height: 50px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+}

@@ -1,0 +1,123 @@
+.container1{
+    margin-top: 1.9%;
+    text-align: center;
+}
+.container2{
+    justify-content: center;
+    font-size:25px ;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    letter-spacing: 0;
+}
+.container3{
+    display: block;
+    padding: 1.5%;
+    border: 1px solid black;
+    background-color: rgb(248, 248, 248);
+    /* font-weight: bold; */
+    margin-top: -2.5%;
+    margin-left: 40%;
+    margin-right: 40%;
+    /* height: 30%; */
+    border-radius: 5px;
+}
+.container4{
+    display: block;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 13.5px;
+    border: 1px solid black;
+    padding: 1%;
+    margin-top: 1%;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 5px;
+}
+.container4 a:hover{
+    text-decoration: underline;
+}
+.div1{
+    display: flex;
+    font-family: sans-serif;
+    font-size: 13.5px;
+    /* margin-top: 3%; */
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+.div2{
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.class2{
+    width: 98%;
+    height: 27px;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    border-width: 1px;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+.class3{
+    width: 100%;
+    color: white;
+    border-radius: 5px;
+    border-width: 0;
+    background-color: rgb(57, 189, 57);
+    font-weight: bold;
+    font-size: 57%;
+    height: 32px;
+}
+.class3:hover{
+    background-color: rgb(80, 196, 80);
+}
+.class4{
+    color: grey;
+}
+.container1 footer div a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.footer{
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-size: 70%; */
+    width: 100%;
+}
+.footer pre{
+    display:block;
+    height: 100%;
+}
+.class2:focus {
+    border: 1px solid #0366D9;
+    outline-color: rgba(37, 149, 255, 0.2);
+    outline-style: solid;
+    outline-width: 3px;
+  }
+@media screen and (max-width:1015px) and (min-width:610px) {
+    .container3{
+        margin-left: 35% !important;
+        margin-right: 35% !important;
+        width: 30%;
+    }
+    .container4{
+        margin-left: 35% !important;
+        margin-right: 35% !important;
+        min-width: 31%;
+    }
+}
+@media screen and (max-width:610px) {
+    .container3{
+        margin-left: 15% !important;
+        margin-right: 15% !important;
+        width: 70%;
+    }
+    .container4{
+        margin-left: 15% !important;
+        margin-right: 15% !important;
+        min-width: 71%;
+        margin-top: 2%;
+        height: 30px;
+    }
+}

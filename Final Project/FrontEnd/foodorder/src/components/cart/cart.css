@@ -1,0 +1,146 @@
+.container2 {
+  align-items: center;
+  font-family: sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  width: 98%;
+  height: auto !important;
+  justify-content: center;
+  margin: 1%;
+  padding: 0px 0px;
+}
+
+.imgs1 {
+  display: flexbox !important;
+  overflow: hidden;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.image1 {
+  text-align: center !important;
+  max-width: 10%;
+  max-height: 100px;
+  transition: 0.4s ease-in-out;
+}
+
+.box1 {
+  display: flexbox !important;
+  overflow: hidden;
+  width: 95%;
+  max-height: 100px !important;
+  background-color: aliceblue;
+  margin: 1%;
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.box1:hover {
+  box-shadow: 0 0 10px black;
+}
+
+.para1 {
+  position: absolute;
+  width: 90%;
+  min-height: 100px;
+  left: 10%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  overflow: hidden;
+  font-weight: bolder;
+}
+
+.title1 {
+  position: absolute;
+  top: 35%;
+  left: 1%;
+  
+}
+
+.quantity {
+  position: absolute;
+  top: 35%;
+  left: 40%;
+}
+
+.price {
+  position: absolute;
+  top: 35%;
+  left: 80%;
+}
+
+.card-title {
+  font-weight: bolder !important;
+}
+
+@media screen and (max-width:449px) {
+
+  .image1 {
+    max-width: 30%;
+  }
+
+  .box1 {
+    width: 98%;
+  }
+
+  .para1 {
+    width: 70%;
+    left: 30%;
+    font-weight: bold;
+  }
+
+  .title1 {
+    position: relative;
+    text-align: center;
+  }
+
+  .quantity {
+    position: relative;
+    text-align: center;
+    left: 0%;
+  }
+
+  .price {
+    position: relative;
+    text-align: center;
+    left: 0%;
+  }
+
+  .card-title {
+    font-weight: bold !important;
+  }
+}
+
+@media screen and (min-width:450px) and (max-width:830px) {
+
+  .image1 {
+    max-width: 20%;
+  }
+
+  .box1 {
+    width: 98%;
+  }
+
+  .para1 {
+    width: 80%;
+    left: 20%;
+    font-weight: bold;
+  }
+
+  .title1 {
+    position: relative;
+    text-align: center;
+  }
+
+  .quantity {
+    position: relative;
+    text-align: center;
+    left: 0%;
+  }
+
+  .price {
+    position: relative;
+    text-align: center;
+    left: 0%;
+  }
+}

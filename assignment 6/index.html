@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Calculator</title>
+    <link rel="icon"
+        href="https://iconarchive.com/download/i76805/wineass/ios7-redesign/Calculator.ico"
+        type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Calculator <i class="fa fa-calculator" aria-hidden="true"></i></h1>
+    </header>
+    <div class="container-fluid text-center">
+        <div class="card card-deck">
+            <input type="text" class="screen" id="screen" value="" autocomplete="off" disabled>
+            <div class="card-body">
+                <div class="row ">
+                    <div class="col col-sm-3 col-md-3 col-lg-3">
+                        <button class="btn btn-block btn-light" value="C">C</button>
+                    </div>
+                    <div class="col col-sm-3 col-md-3 col-lg-3">
+                        <button class="btn btn-block btn-light" value="<">D</button>
+                    </div>
+                    <div class="col col-sm-3 col-md-3 col-lg-3">
+                        <button class="btn btn-block btn-light" value="%">%</button>
+                    </div>
+                    <div class="col col-sm-3 col-md-3 col-lg-3">
+                        <button class="btn btn-block btn-warning" value="/">÷</button>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col col-sm-3 col-md-3 col-lg-3" style="border: none;">
+                        <button class="btn btn-block btn-secondary" value="7">7</button>
+                    </div>
+                    <div class="col col-sm-3 col-md-3 col-lg-3">
+                        <button class="btn btn-block btn-secondary" value="8">8</button>
+                    </div>
+                    <div class="col col-sm-3 col-md-3 col-lg-3">
+                        <button class="btn btn-block btn-secondary" value="9">9</button>
+                    </div>
+                    <div class="col col-sm-3 col-md-3 col-lg-3">
+                        <button class="btn btn-block btn-warning" value="*">×</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-sm-3 col-md-3 col-lg-3">
+                        <button class="btn btn-block btn-secondary" value="4">4</button>
+                    </div>
+                    <div class="col col-sm-3 col-md-3 col-lg-3">
+                        <button class="btn btn-block btn-secondary" value="5">5</button>
+                    </div>
+                    <div class="col col-sm-3 col-md-3 col-lg-3">
+                        <button class="btn btn-block btn-secondary" value="6">6</button>
+                    </div>
+                    <div class="col col-sm-3 col-md-3 col-lg-3">
+                        <button class="btn btn-block btn-warning" value="-">-</button>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col col-sm-3 col-md-3 col-lg-3">
+                        <button class="btn btn-block btn-secondary" value="1">1</button>
+                    </div>
+                    <div class="col col-sm-3 col-md-3 col-lg-3">
+                        <button class="btn btn-block btn-secondary" value="2">2</button>
+                    </div>
+                    <div class="col col-sm-3 col-md-3 col-lg-3">
+                        <button class="btn btn-block btn-secondary" value="3">3</button>
+                    </div>
+                    <div class="col col-sm-3 col-md-3 col-lg-3">
+                        <button class="btn btn-block btn-warning" value="+">+</button>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col col-sm-3 col-md-3 col-lg-3">
+                        <button class="btn btn-block btn-secondary" value="0">0</button>
+                    </div>
+                    <div class="col col-sm-3 col-md-3 col-lg-3">
+                        <button class="btn btn-block btn-secondary" value="00">00</button>
+                    </div>
+                    <div class="col col-sm-3 col-md-3 col-lg-3">
+                        <button class="btn btn-block btn-secondary" value="." id=".">.</button>
+                    </div>
+                    <div class="col col-sm-3 col-md-3 col-lg-3">
+                        <button class="btn btn-block btn-warning" value="=">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js.js"></script>
+</body>
+
+</html>

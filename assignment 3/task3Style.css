@@ -1,0 +1,269 @@
+#body1,#body2{
+    background-image: url('https://images.hdqwalls.com/download/old-runes-5k-0w-5120x2880.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+}
+#img{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 550px;
+    animation:myanime 0.4s;
+    animation-fill-mode: both; 
+    opacity: 95%;
+}
+.div1,.div2{
+    text-align: center;
+    position: relative;
+}
+.div1a{
+    text-align: center;
+    color: black;
+    text-shadow:0 0 5px rgb(255, 7, 160),0 0 8px purple ;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    text-transform:capitalize;
+    top: 50%;
+    left: 50%;
+    max-width: 500px;
+    margin-bottom: -400px;
+    transform: translate(-50%, -120%);
+    animation:myanime 1s;
+    animation-delay: 0.8s;
+    animation-fill-mode:both;
+}
+#h1{
+    border-image: url('https://images.hdqwalls.com/download/came-here-for-peace-8k-id-7680x4320.jpg');
+    color:white;
+    font-family:cursive;
+    text-shadow:0 0 5px rgb(255, 7, 160),0 0 8px purple ;
+    border: 0px;
+    animation:myanime 1s;
+    animation-fill-mode: both;
+    animation-delay: 2.5s;
+} 
+span{
+    border: 0px;
+    text-shadow:0 0 5px rgb(255, 7, 160),0 0 8px purple ;
+    opacity: 0%;
+    animation:myanime 1s;
+    animation-iteration-count: 9;
+    animation-direction: alternate-reverse;
+    animation-delay: 5s;
+    background-color: black;
+    color: white; 
+    border-radius: 10px;
+    border-left:5px solid goldenrod;
+    border-right:5px solid goldenrod;
+}
+@keyframes myanime {
+    0%{opacity: 0%;}5%{opacity: 5%;}10%{opacity: 10%;}15%{opacity: 15%;}20%{opacity: 20%;}
+    25%{opacity: 25%;}30%{opacity: 30%;}35%{opacity: 35%;}40%{opacity: 40%;}45%{opacity: 45%;}
+    50%{opacity: 50%;}55%{opacity: 55%;}60%{opacity: 60%;}65%{opacity: 65%;}70%{opacity: 70%;}
+    75%{opacity: 75%;}80%{opacity: 80%;}85%{opacity: 85%;}90%{opacity: 90%;}95%{opacity: 95%;}
+    100%{opacity: 100%;}
+}
+@media screen and (max-width:830px) {
+    .login{
+        text-align: center;
+        color: whitesmoke;
+        text-shadow:0 0 8px rgb(255, 7, 160),0 0 10px purple ;
+        max-height: 400px;
+        min-width: 90%;
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 5% !important;
+        background-image: linear-gradient(rgb(73, 3, 73),rgb(255, 7, 160));
+        text-align: center;
+        font-family: sans-serif;
+        border:black 0.1px solid;
+        font-size: 30px;
+        border-radius: 40px;
+    }
+    .login1{
+        text-align: center;
+        color: whitesmoke;
+        text-shadow:0 0 8px rgb(255, 7, 160),0 0 10px purple ;
+        max-height: 550px;
+        min-width: 90%;
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 5% !important;
+        margin:auto;
+        background-image: linear-gradient(rgb(73, 3, 73),rgb(255, 7, 160));
+        text-align: center;
+        font-family: sans-serif;
+        border:black 0.1px solid;
+        font-size: 30px;
+        border-radius: 40px;
+    }
+} 
+@media screen and (max-width:800px){
+    .div1a{
+        text-align: center;
+        color: black;
+        text-shadow:0 0 5px rgb(255, 7, 160),0 0 8px purple ;
+        font-size: 15px;
+        font-family:sans-serif;
+        position: relative;
+        text-transform:capitalize;
+        top: 50%;
+        left: 50%;
+        max-width: 480px;
+        margin-bottom: -200px;
+        transform: translate(-50%, -140%);
+        animation:myanime 1s;
+        animation-delay: 0.8s;
+        animation-fill-mode:both;
+    }
+    #img{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 100%;
+    height: 380px;
+    max-width: 100%;
+    max-height: 550px;
+    animation:myanime 0.4s;
+    animation-fill-mode: both; 
+    opacity: 95%;
+}
+.button{
+    min-width:-moz-fit-content;
+    min-width:-webkit-fill-available;
+    min-width:fit-content;
+}
+.input{
+    margin-bottom:3px
+}
+}
+.button {
+    border: none;
+    border-radius: 20px;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin:auto;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    animation:myanime 1s;
+    animation-delay: 3s;
+    animation-fill-mode: both;
+}
+.buttons {
+    border: none;
+    border-radius: 20px;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin:auto;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.button1{
+    font-weight: bold;
+    margin-top: 5%;
+    background-color: black;
+    width: 8%;
+    height: 60px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.button4{
+    font-weight: bold;
+    margin-top: 1%;
+    width: 8%;
+    height: 60px;
+    margin-bottom: 5%;
+    background-color: black;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.button1:hover,.button4:hover {
+    font-weight: bold;
+    width: 9%;
+    height: 65px;
+    background-color: white;
+    color: black;
+}
+.button2{
+    font-weight: bold;
+    margin-top: 5%;
+    min-height: 60px;
+    background-color: black;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.button3{
+    font-weight: bold;
+    margin-top: 4%;
+    height: 35px;
+    background-image: linear-gradient(to bottom,purple,orangered);
+    border-radius: 12px;
+    color: palegoldenrod;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.button2:hover{
+    font-weight: bolder;
+    width: 25%;
+    height: 65px;
+    background-color:white;
+    color: black;
+}
+.button3:hover{
+    font-weight: bolder;
+    width: 25%;
+    height: 40px;
+    color: white;
+}
+.login{
+    background-image: linear-gradient(rgb(94, 3, 94),rgb(255, 123, 0));
+    color: whitesmoke;
+    text-shadow:0 0 8px rgb(255, 7, 160),0 0 10px purple ;
+    text-align: center;
+    font-family: sans-serif;
+    border:black 0.1px solid;
+    padding: auto;
+    font-size: 40px;
+    border-radius: 40px;
+    max-height: 350px;
+    margin-top: 8%;
+    margin-left: 35%; 
+    margin-right: 35%;
+}
+.login1{
+    background-image: linear-gradient(rgb(94, 3, 94),rgb(255, 123, 0));
+    text-align: center;
+    color: whitesmoke;
+    text-shadow:0 0 8px rgb(255, 7, 160),0 0 10px purple ;
+    font-family: sans-serif;
+    border:black 0.1px solid;
+    padding: auto;
+    font-size: 40px;
+    border-radius: 40px;
+    max-height: 500px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 35%; 
+    margin-right: 35%;
+}
+.input{
+    text-align: center;
+    width: 60%;
+    height: 30px;
+    border-radius: 40px;
+    border:black 0.1px solid;
+}
+.input:hover{
+    width: 63%;
+    height: 35px;
+    transition-duration: 0.5s;
+}
